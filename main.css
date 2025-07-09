@@ -14,6 +14,7 @@ body {
 
 img {
     height: auto;
+    max-width: 100%;
 }
 
 .container {
@@ -51,9 +52,6 @@ img {
 
 .nav-list {
     gap: 40px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-link {
@@ -76,12 +74,11 @@ img {
     padding-top: 40px;
 }
 
-.girl-left{
-    place-self: center;
-    -ms-grid-column-span: 6;
+.left{
+    grid-column: 6 span;
 }
-.girl-right {
- -ms-grid-column-span: 6;
+.right {
+    grid-column: 6 span;
 }
 
 .girl-image {
@@ -94,6 +91,7 @@ img {
     font-size: 70px;
     margin-bottom: 20px;
     line-height: 112px;
+    max-height: 112px;
 }
 
 .girl-paragraph {
@@ -118,6 +116,53 @@ img {
     color: white;
 }
 
+.about-school {
+    background-color: white;
+    padding: 120px 0;
+}
+
+.about-container {
+    margin: 0 350px;
+    padding: 15px 0;
+    row-gap: 60px;
+}
+
+.about-h {
+    margin: 0;
+    grid-column: 9 span;
+    color: #141024;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.about-logo {
+    font-weight: 600;
+}
+
+.about-list {
+    grid-column: 12 span;
+}
+
+.about-item {
+    grid-column: 3 span;
+
+}
+
+.about-item-title {
+    margin: 0;
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 112px;
+    color: #d52027;
+}
+
+.list-reset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .btn {
     cursor: pointer;
     font-size: 16px;
@@ -134,3 +179,13 @@ img {
     gap: 40px;
     grid-template-columns: repeat(12, 1fr);
 }
+
+.descr {
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgba(20, 16, 36, 0.7)
+
+}
+ 
