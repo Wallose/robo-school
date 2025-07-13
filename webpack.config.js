@@ -32,31 +32,18 @@ module.exports = {
 
                 {
                     test: /\.(png|svg|jpg|jpeg|gif)$/i,
-<<<<<<< HEAD
-=======
-                    type: 'asset/resource',
->>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
                     use: [
                         {
                             loader: 'file-loader',
                             options: {
-<<<<<<< HEAD
                                 name:'[name].[ext]',
                                  outputPath: 'images'
                             },
                         },
-=======
-                                name:'[name][hash].[ext]',
-                                 outputPath: 'images'
-                            },
-                        },
-                        
->>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
                     ],
                 },
                 {
                     test: /\.(woff|woff2|eot|ttf|otf)$/i,
-<<<<<<< HEAD
                     use: [
                         {
                             loader: 'file-loader',
@@ -66,9 +53,6 @@ module.exports = {
                             },
                         },
                     ],
-=======
-                    type: 'asset/resource',
->>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
 
                 },
             ],

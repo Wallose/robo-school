@@ -14,15 +14,9 @@
 /*!************************************!*\
   !*** ./src/images/ROBO.SCHOOL.png ***!
   \************************************/
-<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/ROBO.SCHOOL.png\");\n\n//# sourceURL=webpack://robo-school-1/./src/images/ROBO.SCHOOL.png?\n}");
-=======
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("{module.exports = __webpack_require__.p + \"a1b93c02753715d8cffa.png\";\n\n//# sourceURL=webpack://robo-school-1/./src/images/ROBO.SCHOOL.png?\n}");
->>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
 
 /***/ }),
 
@@ -30,15 +24,9 @@ eval("{module.exports = __webpack_require__.p + \"a1b93c02753715d8cffa.png\";\n\
 /*!************************************!*\
   !*** ./src/images/grilnsircle.png ***!
   \************************************/
-<<<<<<< HEAD
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/grilnsircle.png\");\n\n//# sourceURL=webpack://robo-school-1/./src/images/grilnsircle.png?\n}");
-=======
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("{module.exports = __webpack_require__.p + \"7d1a1c46903273693e15.png\";\n\n//# sourceURL=webpack://robo-school-1/./src/images/grilnsircle.png?\n}");
->>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
 
 /***/ }),
 
@@ -89,7 +77,6 @@ eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-ext
 /******/ 	}
 /******/ 	
 /************************************************************************/
-<<<<<<< HEAD
 /******/ 	/* webpack/runtime/define property getters */
 /******/ 	(() => {
 /******/ 		// define getter functions for harmony exports
@@ -102,8 +89,6 @@ eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-ext
 /******/ 		};
 /******/ 	})();
 /******/ 	
-=======
->>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
 /******/ 	/* webpack/runtime/global */
 /******/ 	(() => {
 /******/ 		__webpack_require__.g = (function() {
@@ -116,14 +101,11 @@ eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-ext
 /******/ 		})();
 /******/ 	})();
 /******/ 	
-<<<<<<< HEAD
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
-=======
->>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
 /******/ 	/* webpack/runtime/make namespace object */
 /******/ 	(() => {
 /******/ 		// define __esModule on exports
