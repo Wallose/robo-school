@@ -1,0 +1,58 @@
+.hero {
+    padding-top: 40px;
+
+    &__container {
+        max-width: $container-hero;
+<<<<<<< HEAD
+        margin: 0 357px;
+=======
+        margin: 0 auto;
+>>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
+        padding: 0 15px;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 40px;
+    }
+
+    &__content {
+        grid-column: span 6;
+<<<<<<< HEAD
+        place-self: center;
+=======
+>>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
+    }
+
+    &__image-wrap {
+        grid-column: span 6;
+    }
+
+    &__image {
+        position: relative;
+        left: 80px;
+<<<<<<< HEAD
+        height: auto;
+        max-width: 100%;
+=======
+>>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 70px;
+        margin-bottom: 20px;
+        line-height: 112px;
+<<<<<<< HEAD
+        max-height: 112px;
+=======
+>>>>>>> 74004d66775f68a224b561508a8042765fd10ecb
+        color: $white;
+    }
+
+    &__text {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px;
+        max-width: 485px;
+        margin-bottom: 75px;
+    }
+}
