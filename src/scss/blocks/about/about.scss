@@ -3,12 +3,7 @@
     padding: 120px 0;
 
     &__container {
-        max-width: $container-max;
-        margin: 0 350px;
-        padding: 0 15px;
         row-gap: 60px;
-        display: grid;
-        grid-template-columns: repeat(12, 1fr);
     }
 
     &__title {
@@ -26,9 +21,7 @@
 
     &__list {
         padding: 0;
-        display: grid;
         gap: 40px;
-        grid-template-columns: repeat(12, 1fr);
         grid-column: span 12;
         margin: 0;
     }

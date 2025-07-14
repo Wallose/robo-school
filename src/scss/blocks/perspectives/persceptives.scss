@@ -3,11 +3,8 @@
     padding: 100px 0;
     
     &__container {
-        display: flex;
         flex-direction: column;
         max-width: $container-max;
-        margin: 0 350px;
-        padding: 15px 0;
     }
 
     &__title {
@@ -20,12 +17,7 @@
     }
 
     &__list {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: grid;
         gap: 40px;
-        grid-template-columns: repeat(12, 1fr);
     }
 
     &__item {

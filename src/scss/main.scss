@@ -3,11 +3,15 @@
 @import './styles/fonts';
 
 // Блоки
+@import './styles/global';
 @import './blocks/about/about';
 @import './blocks/header/header';
 @import './blocks/hero/hero';
-@import './blocks/btn/btn';
-@import './blocks/perspectives/persceptives.scss';
+@import './blocks/perspectives/persceptives';
+@import './blocks/coaches/coaches';
+@import './blocks/package/package';
+@import './blocks/forms/forms';
+@import './blocks/footer/footer';
 
 // Глобальные стили
 body {
@@ -21,4 +25,9 @@ body {
 a {
   color: $white;
   text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
 }
