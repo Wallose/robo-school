@@ -8,16 +8,15 @@
     <meta name="theme-color" content="#111111">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/src/js/main.js"></script>
 <script defer src="main.js"></script><link href="css/main.css" rel="stylesheet"></head>
 <body class="page__body">
-<div class="site-container">
+<div class="site__container">
     <header class="header">
-        <div class="header__container container">
+        <div class="container header__container flex">
             <a class="header__logo">
                 <img src="./images/ROBO.SCHOOL.png" alt="Robo School logo">
             </a>
-            <nav class="nav header__nav" title="Навигационное меню">
+            <nav class="nav flex" title="Навигационное меню">
                 <ul class="list-reset nav__list flex">
                     <li class="nav__item"><a class="nav__link" href="#">О&nbsp;школе</a></li>
                     <li class="nav__item"><a class="nav__link" href="#">Тренеры</a></li>
@@ -30,11 +29,11 @@
 
     <main>
         <section class="hero">
-            <div class="hero__container container">
+            <div class="container hero__container grid">
                 <div class="hero__content">
                     <h1 class="hero__title">ROBO SCHOOL</h1>
                     <p class="hero__text">Курсы повышения квалификации по робототехнике для педагогов начальной школы</p>
-                    <a href="#" class="btn hero__btn">Записаться на курс</a>
+                    <a href="#" class="hero__btn btn">Записаться на курс</a>
                 </div>
                 <div class="hero__image-wrap">
                     <img src="./images/grilnsircle.png" alt="Девушка" class="hero__image">
@@ -42,15 +41,15 @@
             </div>
         </section>
         <section class="about">
-            <div class="about__container">
+            <div class="container about__container grid">
                 <h2 class="about__title">
                     <span class="about__title-highlight">Robo School -</span>
                     учреждение для формирования кадрового педагогического резерва в сфере робототехники и программирования
                 </h2>
-                <ul class="about__list">
+                <ul class="about__list grid">
                     <li class="about__item">
                         <p class="about__item-num">10</p>
-                        <p class="about__item-descr">УМК по различным направлениям по робототехнике</p>
+                        <p class="about__item-descr">УМК по&nbsp;различным направлениям по&nbsp;робототехнике</p>
                     </li>
                     <li class="about__item">
                         <p class="about__item-num">20</p>
@@ -68,9 +67,9 @@
             </div>
         </section>
         <section class="perspectives">
-            <div class="perspectives__container">
+            <div class="container perspectives__container flex">
                 <h2 class="perspectives__title">Что вы получите после курса</h2>
-                <ul class="perspectives__list">
+                <ul class="list-reset perspectives__list grid">
                     <li class="perspectives__item">
                         <h3 class="perspectives__subtitle">Удостоверение</h3>
                         <p class="perspectives__descr">Дающее право преподавать робототехнику для детей 6-12 лет в образовательных учреждениях</p>
@@ -97,20 +96,78 @@
             </div>
         </section>
         <section class="coaches">
-            <div class="coaches__container">
+            <div class="container coaches__container">
                 <h2 class="coaches__title">Профессиональные тренеры</h2>
             </div>
         </section>
         <section class="package">
+            <div class="container package__container">
+                <h2 class="package__title title">Выберите нужный пакет</h2>
+                <ul class="package__list list-reset grid">
+                    <li class="package__item flex">
+                        <article class="package__card package-card flex">
+                            <div class="package-card__content flex">
+                                <h3 class="package-card__title">— PRO —</h3>
+                                <div class="package__text">
+                                    <span class="package-card__price">20.000 ₽</span>
+                                    <p class="package-card__descr descr">УМК по робототетхнике и программированию</p>
+                                </div>
+                                <button class="package-card__btn btn">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="package__item flex">
+                        <article class="package__card package-card flex">
+                            <div class="package-card__content flex">
+                                 <h3 class="package-card__title">— ROBO —</h3>
+                                 <div class="package__text">
+                                    <span class="package-card__price">15.000 ₽</span>
+                                    <p class="package-card__descr descr">УМК по робототетхнике</p>
+                                 </div>
+                                 <button class="package-card__btn btn">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="package__item flex">
+                        <article class="package__card package-card flex">
+                            <div class="package-card__content flex">
+                                <h3 class="package-card__title">— PROG —</h3>
+                                <div class="package__text">
+                                    <span class="package-card__price">10.000 ₽</span>
+                                    <p class="package-card__descr descr">УМК по программированию</p>
+                                </div>
+                                <button class="package-card__btn btn">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
 
         </section>
-        <section class="form">
-
+        <section class="forms">
+            <div class="container forms__container grid">
+                <div class="forms__text">
+                    <h3 class="forms__title">Запишитесь&nbsp;на курс&nbsp;со&nbsp;скидкой 10%</h3>
+                    <p class="forms__descr">Акция действительна до 10 марта 2022 года</p>
+                </div>
+                <form class="forms__form flex" action="https://jsonplaceholder.typicode.com/posts" method="POST"  enctype="multipart/form-data">
+                 <label class="forms__label">
+                    <input name="name" type="text" class="forms__input" placeholder="Имя" data-validate-field="name">
+                 </label>
+                 <label class="forms__label" id="tel">
+                    <input name="tel" type="tel" class="forms__input" placeholder="Телефон" data-validate-field="tel">
+                 </label>
+                 <label class="forms__label">
+                     <input name="email" type="email" class="forms__input" placeholder="E-mail" data-validate-field="email">
+                 </label>
+                   <button type="submit" class="btn forms__btn">Оформить заявку</button>
+                </form>
+            </div>
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__info">
+        <div class="container footer__container flex">
+            <div class="footer__info flex">
                 <a class="footer__logo"><img src="./images/ROBO.SCHOOL.png" alt="Robo School logo"></a>
                 <a href="tel:+78000001122" class="footer__tel">+7&nbsp;800&nbsp;000&nbsp;11&nbsp;22</a>
             </div>

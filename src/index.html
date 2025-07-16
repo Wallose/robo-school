@@ -4,14 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ROBO SCHOOL</title>
-    <link rel="preload" href="fonts/JostRegular.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/JostSemiBold.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="fonts/JostBold.woff2" as="font" type="font/woff2" crossorigin>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#111111">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/src/js/main.js"></script>
 </head>
 <body class="page__body">
 <div class="site__container">
@@ -53,7 +49,7 @@
                 <ul class="about__list grid">
                     <li class="about__item">
                         <p class="about__item-num">10</p>
-                        <p class="about__item-descr">УМК по различным направлениям по робототехнике</p>
+                        <p class="about__item-descr">УМК по&nbsp;различным направлениям по&nbsp;робототехнике</p>
                     </li>
                     <li class="about__item">
                         <p class="about__item-num">20</p>
@@ -99,21 +95,73 @@
                     </ul>
             </div>
         </section>
-        <!-- <section class="coaches">
+        <section class="coaches">
             <div class="container coaches__container">
                 <h2 class="coaches__title">Профессиональные тренеры</h2>
             </div>
         </section>
         <section class="package">
+            <div class="container package__container">
+                <h2 class="package__title title">Выберите нужный пакет</h2>
+                <ul class="package__list list-reset grid">
+                    <li class="package__item flex">
+                        <article class="package__card package-card flex">
+                            <div class="package-card__content flex">
+                                <h3 class="package-card__title">— PRO —</h3>
+                                <div class="package__text">
+                                    <span class="package-card__price">20.000 ₽</span>
+                                    <p class="package-card__descr descr">УМК по робототетхнике и программированию</p>
+                                </div>
+                                <button class="package-card__btn btn">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="package__item flex">
+                        <article class="package__card package-card flex">
+                            <div class="package-card__content flex">
+                                 <h3 class="package-card__title">— ROBO —</h3>
+                                 <div class="package__text">
+                                    <span class="package-card__price">15.000 ₽</span>
+                                    <p class="package-card__descr descr">УМК по робототетхнике</p>
+                                 </div>
+                                 <button class="package-card__btn btn">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="package__item flex">
+                        <article class="package__card package-card flex">
+                            <div class="package-card__content flex">
+                                <h3 class="package-card__title">— PROG —</h3>
+                                <div class="package__text">
+                                    <span class="package-card__price">10.000 ₽</span>
+                                    <p class="package-card__descr descr">УМК по программированию</p>
+                                </div>
+                                <button class="package-card__btn btn">Оставить заявку</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
 
-        </section> -->
+        </section>
         <section class="forms">
             <div class="container forms__container grid">
                 <div class="forms__text">
-                    <h3 class="forms__title">Запишитесь на курс со скидкой 10%</h3>
+                    <h3 class="forms__title">Запишитесь&nbsp;на курс&nbsp;со&nbsp;скидкой 10%</h3>
                     <p class="forms__descr">Акция действительна до 10 марта 2022 года</p>
                 </div>
-                <form action="" class="forms__form flex"></form>
+                <form class="forms__form flex" action="https://jsonplaceholder.typicode.com/posts" method="POST"  enctype="multipart/form-data">
+                 <label class="forms__label">
+                    <input name="name" type="text" class="forms__input" placeholder="Имя" data-validate-field="name">
+                 </label>
+                 <label class="forms__label" id="tel">
+                    <input name="tel" type="tel" class="forms__input" placeholder="Телефон" data-validate-field="tel">
+                 </label>
+                 <label class="forms__label">
+                     <input name="email" type="email" class="forms__input" placeholder="E-mail" data-validate-field="email">
+                 </label>
+                   <button type="submit" class="btn forms__btn">Оформить заявку</button>
+                </form>
             </div>
         </section>
     </main>

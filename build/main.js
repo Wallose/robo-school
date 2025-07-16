@@ -10,13 +10,43 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/fonts/JostBold.woff2":
+/*!**********************************!*\
+  !*** ./src/fonts/JostBold.woff2 ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("{module.exports = __webpack_require__.p + \"fonts/JostBold.woff2\";\n\n//# sourceURL=webpack://robo-school-1/./src/fonts/JostBold.woff2?\n}");
+
+/***/ }),
+
+/***/ "./src/fonts/JostRegular.woff2":
+/*!*************************************!*\
+  !*** ./src/fonts/JostRegular.woff2 ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("{module.exports = __webpack_require__.p + \"fonts/JostRegular.woff2\";\n\n//# sourceURL=webpack://robo-school-1/./src/fonts/JostRegular.woff2?\n}");
+
+/***/ }),
+
+/***/ "./src/fonts/JostSemiBold.woff2":
+/*!**************************************!*\
+  !*** ./src/fonts/JostSemiBold.woff2 ***!
+  \**************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("{module.exports = __webpack_require__.p + \"fonts/JostSemiBold.woff2\";\n\n//# sourceURL=webpack://robo-school-1/./src/fonts/JostSemiBold.woff2?\n}");
+
+/***/ }),
+
 /***/ "./src/images/ROBO.SCHOOL.png":
 /*!************************************!*\
   !*** ./src/images/ROBO.SCHOOL.png ***!
   \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/ROBO.SCHOOL.png\");\n\n//# sourceURL=webpack://robo-school-1/./src/images/ROBO.SCHOOL.png?\n}");
+eval("{module.exports = __webpack_require__.p + \"images/ROBO.SCHOOL.png\";\n\n//# sourceURL=webpack://robo-school-1/./src/images/ROBO.SCHOOL.png?\n}");
 
 /***/ }),
 
@@ -24,9 +54,19 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /*!************************************!*\
   !*** ./src/images/grilnsircle.png ***!
   \************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + \"images/grilnsircle.png\");\n\n//# sourceURL=webpack://robo-school-1/./src/images/grilnsircle.png?\n}");
+eval("{module.exports = __webpack_require__.p + \"images/grilnsircle.png\";\n\n//# sourceURL=webpack://robo-school-1/./src/images/grilnsircle.png?\n}");
+
+/***/ }),
+
+/***/ "./src/images/percent.svg":
+/*!********************************!*\
+  !*** ./src/images/percent.svg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("{module.exports = __webpack_require__.p + \"images/percent.svg\";\n\n//# sourceURL=webpack://robo-school-1/./src/images/percent.svg?\n}");
 
 /***/ }),
 
@@ -36,7 +76,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _images_ROBO_SCHOOL_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/ROBO.SCHOOL.png */ \"./src/images/ROBO.SCHOOL.png\");\n/* harmony import */ var _images_grilnsircle_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/grilnsircle.png */ \"./src/images/grilnsircle.png\");\n\r\n\r\n\n\n//# sourceURL=webpack://robo-school-1/./src/js/main.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../scss/main.scss */ \"./src/scss/main.scss\");\n/* harmony import */ var _images_ROBO_SCHOOL_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../images/ROBO.SCHOOL.png */ \"./src/images/ROBO.SCHOOL.png\");\n/* harmony import */ var _images_grilnsircle_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../images/grilnsircle.png */ \"./src/images/grilnsircle.png\");\n/* harmony import */ var _images_percent_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../images/percent.svg */ \"./src/images/percent.svg\");\n/* harmony import */ var _fonts_JostRegular_woff2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../fonts/JostRegular.woff2 */ \"./src/fonts/JostRegular.woff2\");\n/* harmony import */ var _fonts_JostSemiBold_woff2__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../fonts/JostSemiBold.woff2 */ \"./src/fonts/JostSemiBold.woff2\");\n/* harmony import */ var _fonts_JostBold_woff2__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../fonts/JostBold.woff2 */ \"./src/fonts/JostBold.woff2\");\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://robo-school-1/./src/js/main.js?\n}");
 
 /***/ }),
 
@@ -77,18 +117,6 @@ eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-ext
 /******/ 	}
 /******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/define property getters */
-/******/ 	(() => {
-/******/ 		// define getter functions for harmony exports
-/******/ 		__webpack_require__.d = (exports, definition) => {
-/******/ 			for(var key in definition) {
-/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
-/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
-/******/ 				}
-/******/ 			}
-/******/ 		};
-/******/ 	})();
-/******/ 	
 /******/ 	/* webpack/runtime/global */
 /******/ 	(() => {
 /******/ 		__webpack_require__.g = (function() {
@@ -99,11 +127,6 @@ eval("{__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-ext
 /******/ 				if (typeof window === 'object') return window;
 /******/ 			}
 /******/ 		})();
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/make namespace object */
